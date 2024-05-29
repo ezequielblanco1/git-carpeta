@@ -1,0 +1,23 @@
+.main2 {
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(to top, #4ebff9, #87ccfa, #b1dafa, #d4e8f9, #f4f6f8);
+.messias {
+    background-color: bisque;
+}
+    .messias {
+        text-align: center;
+        font-size: map-get($fuentes, x5 );
+            }
+        
+            .ti{
+              flex-direction: column;
+                text-align: center;
+        
+                color: $color2;
+                margin: 0.5rem, 0.2rem;
+                font-size: map-get($fuentes, x4 );
+                
+            } 
+    }
+

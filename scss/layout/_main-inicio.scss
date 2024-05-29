@@ -1,0 +1,68 @@
+.main1 {
+    
+    width: 100%;
+    margin: auto;
+    
+
+    .section-principal
+    {
+    width: 100%;
+    height: 12.5rem;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(to top, #4ebff9, #87ccfa, #b1dafa, #d4e8f9, #f4f6f8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    } 
+
+    .lio {
+        -webkit-animation: lio 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+                animation: lio 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+
+    @-webkit-keyframes lio {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes lio {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      
+    
+.messi {
+    
+    background-image: linear-gradient(to right bottom, #4ebff9, #87ccfa, #b1dafa, #d4e8f9, #f4f6f8);
+}
+    .messito {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0px;
+        margin: none;
+        border-style:ridge;
+        filter: drop-shadow(10px 10px 10px pink);
+    transform: scale(0.9);
+
+    }
+     
+    
+
+}

@@ -1,0 +1,56 @@
+.container1 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    @include grids ( repeat (5 , 1fr),none,none,none,none,1.6em );
+  }
+  .container1 {
+    background-image: linear-gradient(to bottom, #f8bedf, #f0c9ec, #ead4f4, #e6def9, #e6e7fa, #d0d5e4, #bcc3cd, #abb1b6, #7e8386, #54585a, #2e3031, #070909);
+    padding: 20px;
+    border: 1px solid $color2;
+  
+  }
+  
+  
+  .container1 .article {
+   
+    background: #111111;
+    padding: 10px;
+    margin-top: 5px;
+    
+    @include flex2 (none,center,center,none);
+    
+    color: #dfe6e9
+     
+  }
+  .container1 .article p {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: map-get($fuentes,x3);
+    
+  }
+  
+  .container1 .inter {
+    @include grids2 (span 9,span 3,center,center,none,none);
+  width: 96%;
+   
+    color: #ffffff;
+    
+  }
+  
+  .container1 .inter img {
+    
+    width: 100%;
+    margin-top: 0px;
+    object-fit: cover;
+  }
+
+
+  .container1 .inter img:hover {
+    
+    filter: drop-shadow(10px 10px 10px pink);
+    transform: scale(0.9);
+    
+    
+  }

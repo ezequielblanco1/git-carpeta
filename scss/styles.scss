@@ -1,6 +1,24 @@
+
+
 @import "./utilities/variable";
 @import "./utilities/maps";
 @import "./utilities/mixins";
 
+
+
 @import "./base/reset";
 @import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-index";
+@import "./layout/main-inicio";
+@import "./layout/main-bibliografia";
+@import "./layout/main-noticias";
+@import "./layout/main-fotos";
+@import "./layout/main-comentarios";
+
+
+
+
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media320";

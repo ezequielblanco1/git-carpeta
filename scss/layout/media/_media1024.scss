@@ -1,0 +1,85 @@
+@media(max-width: 1024px){
+    header 
+    {
+   
+    width: 100%;
+     height: 150px;
+     justify-content: space-between;
+     align-items: center;
+   
+   
+ 
+   }
+    
+    .footerContainer {
+      flex-direction: row;  
+     font-size: 1.875rem;
+    }
+    
+   
+    .footerBottom {
+      flex-direction: row;  
+     font-size: 1.875rem;
+
+    }
+
+.main1 {
+
+    .section-principal
+    {
+    width: 100%;
+    height: 12.5rem;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(to top, #4ebff9, #87ccfa, #b1dafa, #d4e8f9, #f4f6f8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; } 
+
+      .messi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+      }
+
+      img .messito {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 100%;}
+    
+        
+}
+     
+    .mba {
+      text-align: center;
+        font-size: 3em;
+        grid: 0;
+        flex-direction: row;
+    }
+    .mba1 {
+      text-align: center;
+        font-size: 2em;
+        grid: 0;
+        flex-direction: row;
+    }
+    
+    .hal {
+      text-align: center;
+        font-size: 3em;
+        grid: 0;
+        flex-direction: row;
+
+    }
+    .hal1 {
+      text-align: center;
+      font-size: 2em;
+      grid: 0;
+      flex-direction: row;
+     
+}
+
+
+}

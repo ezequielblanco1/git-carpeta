@@ -1,0 +1,95 @@
+@media(max-width:768px){
+    
+ 
+      
+      
+      .footerBottom {
+        flex-direction: row;  
+       font-size: 1.875rem;
+
+      }
+      header{
+          flex-direction: row; 
+          justify-content: space-between;
+          
+        ;      
+      }
+      .section-principal{
+         
+      background-size: contain;
+        height: 18.75rem;
+
+
+      }
+      .messi {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+      }
+        
+      .main3 { 
+        .mba {
+          text-align: center;
+            font-size: 2em;
+            flex-direction: row;
+        }
+        .mba1 {
+          text-align: center;
+            font-size: 1.5em;
+            flex-direction: row;
+            
+        }
+        .m1 {
+          text-align: center;
+          width: 100%;
+             margin: auto;
+                text-align: center;
+                padding: 0px;
+                margin: none;
+        }
+        
+        .hal {
+          text-align: center;
+            font-size: 2em;
+            flex-direction: row;
+        
+        }
+        .hal1 {
+          text-align: center;
+          font-size: 1.5em;
+          flex-direction: row; 
+          
+        }
+        .h11 {
+          text-align: center;
+          width: 100%;
+                margin: auto;
+                text-align: center;
+                padding:0px;
+                margin: none;
+        }
+          }
+          .main2 {
+            width: 100%;
+            margin: auto;
+           
+        .messias {
+            width: 100%;
+        }
+            .messias {
+                text-align: center;
+                font-size: map-get($fuentes, x4 );
+                    }
+                
+                    .ti{
+                    
+                        text-align: center;
+                justify-content: center;
+                        color: $color2;
+                        font-size: map-get($fuentes, x3);
+                        
+                    } 
+            }
+        }

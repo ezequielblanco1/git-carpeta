@@ -2,9 +2,33 @@
     margin: 0;
     padding: 0;
       box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
     }
     body {
       font-size: 14px;
+      
+      background-image: radial-gradient(circle, #4ebff9, #87ccfa, #b1dafa, #d4e8f9, #f4f6f8);
+      
+      
+      .boton button
+  {
+    display: block;
+      align-items: center;  
+    justify-content: center;
+    padding:20px 100px;
+    border-radius: .625rem;
+    font-weight: .625rem;
+    margin: 30px 700px;
+    text-decoration: none;
+    background-color:#df05f3
+    
+}
+.boton button:hover {
+  background-color: transparent;
+  border: 1px solid;
+  cursor: pointer;
+}
   
     }
     html {
