@@ -32,7 +32,7 @@ header {
   justify-content: space-between;
   align-items: center; }
   header .container {
-    max-width: 1880px;
+    max-width: 2000px;
     margin: 0 auto; }
   header .content {
     min-height: 80px; }

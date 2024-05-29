@@ -6,11 +6,8 @@ header
   justify-content: space-between;
   align-items: center;
 
-
-
-
   .container {
-max-width: 1880px;
+max-width: 2000px;
 margin: 0 auto;
 
   }
@@ -58,7 +55,8 @@ margin: 0 auto;
   }
   .menu .navbar ul li a:hover 
 
-  {color: $color1;
+  {
+    color: $color1;
 
   }
 #menu
