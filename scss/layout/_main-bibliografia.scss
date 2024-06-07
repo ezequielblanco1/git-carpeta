@@ -6,11 +6,18 @@
     background-color: bisque;
 }
     .messias {
+        font-family: "Karma", serif;
+  font-weight: 200;
+  font-style: normal;
+       
         text-align: center;
         font-size: map-get($fuentes, x5 );
             }
         
             .ti{
+                font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
               flex-direction: column;
                 text-align: center;
         

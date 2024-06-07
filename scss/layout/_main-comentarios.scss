@@ -8,6 +8,8 @@
         flex-direction: row;
       }
       .mba {
+        font-family: "Karma", serif;
+  font-style: normal;
         padding:20px 30px;
         border-radius: map-get($fuentes , x2);
         font-weight: map-get($fuentes,x2);
@@ -48,12 +50,16 @@
       }
       
       .mba1 {
+        font-family: "Roboto", sans-serif;
+  font-style: normal;
         text-align: center;
         font-size: map-get($fuentes, x4 );
           flex-direction: row;
           
       }
       .hal {
+        font-family: "Karma", serif;
+  font-style: normal;
         padding:20px 30px;
       border-radius: .625rem;
       font-weight: map-get($fuentes,x2);
@@ -95,7 +101,8 @@
   
       
       .hal1 {
-        
+        font-family: "Roboto", sans-serif;
+  font-style: normal;
       font-weight: map-get($fuentes,x2);
         text-align: center;
         font-size: map-get($fuentes, x4 );

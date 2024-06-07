@@ -15,9 +15,8 @@
   .container1 .article {
    
     background: #111111;
-    padding: 10px;
-    margin-top: 5px;
-    
+    padding: 50px;
+    margin-top: 10px;
     @include flex2 (none,center,center,none);
     
     color: #dfe6e9
@@ -27,7 +26,7 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
-    font-size: map-get($fuentes,x3);
+    font-size: map-get($fuentes,x4);
     
   }
   
@@ -35,7 +34,7 @@
     @include grids2 (span 9,span 3,center,center,none,none);
   width: 96%;
    
-    color: #ffffff;
+    color:$color1;
     
   }
   

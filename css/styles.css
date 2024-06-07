@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,10 +13,10 @@ body {
     display: block;
     align-items: center;
     justify-content: center;
-    padding: 20px 100px;
+    padding: 10px 60px;
     border-radius: .625rem;
     font-weight: .625rem;
-    margin: 30px 700px;
+    margin: 30px 100px;
     text-decoration: none;
     background-color: #df05f3; }
   body .boton button:hover {
@@ -37,7 +38,7 @@ header {
   header .content {
     min-height: 80px; }
   header .menu {
-    top: 10px;
+    top: 7px;
     left: 0;
     right: 0;
     display: flex;
@@ -55,12 +56,12 @@ header {
     list-style: none; }
   header .menu .navbar ul li {
     position: relative;
-    float: left; }
+    float: left;
+    overflow: visible; }
   header .menu .navbar ul li a {
     font-size: 20px;
     padding: 18px;
     color: black;
-    display: block;
     font-weight: bold;
     box-sizing: border-box;
     text-decoration: none;
@@ -70,7 +71,7 @@ header {
   header #menu {
     display: none; }
   header .menu-icono {
-    width: 25px; }
+    width: 20px; }
   header .menu label {
     cursor: pointer;
     display: none; }
@@ -153,6 +154,9 @@ footer {
     background-position: center;
     background-size: 100% 100%; }
   .main1 .lio {
+    font-family: "Karma", serif;
+    font-weight: 300;
+    font-style: normal;
     -webkit-animation: lio 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
     animation: lio 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
@@ -200,6 +204,9 @@ footer {
     background-position: center;
     background-size: 100% 100%; }
   .main1 .lio {
+    font-family: "Karma", serif;
+    font-weight: 500;
+    font-style: normal;
     -webkit-animation: lio 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
     animation: lio 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
@@ -241,9 +248,15 @@ footer {
   .main2 .messias {
     background-color: bisque; }
   .main2 .messias {
+    font-family: "Karma", serif;
+    font-weight: 200;
+    font-style: normal;
     text-align: center;
     font-size: 3em; }
   .main2 .ti {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     flex-direction: column;
     text-align: center;
     color: black;
@@ -269,8 +282,8 @@ footer {
 
 .container1 .article {
   background: #111111;
-  padding: 10px;
-  margin-top: 5px;
+  padding: 50px;
+  margin-top: 10px;
   display: inline-block;
   flex-direction: none;
   justify-content: center;
@@ -282,7 +295,7 @@ footer {
   padding: 10px;
   justify-content: center;
   align-items: center;
-  font-size: 1.5em; }
+  font-size: 2em; }
 
 .container1 .inter {
   display: inline-block;
@@ -293,7 +306,7 @@ footer {
   grid-template-areas: none;
   gap: none;
   width: 96%;
-  color: #ffffff; }
+  color: white; }
 
 .container1 .inter img {
   width: 100%;
@@ -311,6 +324,8 @@ footer {
     text-align: center;
     flex-direction: row; }
   .main3 .mba {
+    font-family: "Karma", serif;
+    font-style: normal;
     padding: 20px 30px;
     border-radius: 0.625rem;
     font-weight: 0.625rem;
@@ -342,10 +357,14 @@ footer {
     -webkit-transform: translateY(8px);
     transform: translateY(8px); } }
   .main3 .mba1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     text-align: center;
     font-size: 2em;
     flex-direction: row; }
   .main3 .hal {
+    font-family: "Karma", serif;
+    font-style: normal;
     padding: 20px 30px;
     border-radius: .625rem;
     font-weight: 0.625rem;
@@ -377,6 +396,8 @@ footer {
     -webkit-transform: translateY(8px);
     transform: translateY(8px); } }
   .main3 .hal1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 0.625rem;
     text-align: center;
     font-size: 2em;
@@ -544,6 +565,8 @@ footer {
   .main1 .section-principal {
     justify-content: center;
     background-size: contain; }
+  .main1 .lio {
+    padding: 17px; }
   .main1 .messi {
     display: flex;
     justify-content: center;
@@ -582,7 +605,8 @@ footer {
     width: 100%;
     margin: auto; }
     .main2 .messias {
-      width: 100%; }
+      width: 100%;
+      padding: 10px; }
     .main2 .messias {
       text-align: center;
       font-size: 2em; }
@@ -590,4 +614,38 @@ footer {
       text-align: center;
       justify-content: center;
       color: black;
-      font-size: 1.5em; } }
+      font-size: 1.5em; }
+  .container1 {
+    width: 100%; }
+  .container1 {
+    background-image: linear-gradient(to bottom, #f8bedf, #f0c9ec, #ead4f4, #e6def9, #e6e7fa, #d0d5e4, #bcc3cd, #abb1b6, #7e8386, #54585a, #2e3031, #070909);
+    padding: 5px;
+    border: 1px solid black; }
+  .container1 .article {
+    background: #111111;
+    padding: 1px;
+    width: 100%;
+    color: #dfe6e9; }
+  .container1 .article p {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-align: center; }
+  .container1 .inter {
+    width: 100%;
+    color: white; }
+  .container1 .inter img {
+    width: 20%;
+    margin-top: 0px;
+    object-fit: cover; }
+  .boton button {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    left: 10px;
+    border-radius: .625rem;
+    font-weight: .625rem;
+    margin: 10px 10px;
+    text-decoration: none;
+    background-color: #df05f3; } }
