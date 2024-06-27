@@ -196,7 +196,9 @@
       background: #111111;
       padding: 1px;
       width: 100%;  
-      color: #dfe6e9
+      color: #dfe6e9;
+      
+      
        
     }
     .container1 .article p {
@@ -205,7 +207,7 @@
       align-items: center;
       font-size:16px;
       text-align: center;
-      
+      overflow: hidden;
     }
     
     .container1 .inter {
@@ -220,6 +222,7 @@
       width: 20%;
       margin-top: 0px;
       object-fit: cover;
+      overflow: hidden;
     }
   
     .boton button
