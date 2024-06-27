@@ -627,7 +627,6 @@ footer {
   .container1 .article {
     background: #111111;
     padding: 1px;
-    width: 100%;
     color: #dfe6e9; }
   .container1 .article p {
     padding: 10px;
@@ -637,7 +636,6 @@ footer {
     text-align: center;
     overflow: hidden; }
   .container1 .inter {
-    width: 100%;
     color: white; }
   .container1 .inter img {
     width: 20%;
