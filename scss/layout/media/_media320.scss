@@ -171,17 +171,24 @@
     }
 
     //Noticias//
+   
 
     .container1 {
       width: 100%;
+      margin: 0;
+      
+      
       
       
      
     }
     .container1 {
+      width: 100%;
       background-image: linear-gradient(to bottom, #f8bedf, #f0c9ec, #ead4f4, #e6def9, #e6e7fa, #d0d5e4, #bcc3cd, #abb1b6, #7e8386, #54585a, #2e3031, #070909);
       padding: 5px;
       border: 1px solid $color2;
+      overflow: hidden;
+      
     
     }
     .container1 .article {
